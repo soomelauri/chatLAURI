@@ -14,7 +14,7 @@ Answer the question based only on the following context:
 Answer the question based on the above context: {question}
 """
 
-BEDROCK_MODEL_ID = "anthropic.claude-3-haiku-20240307-v1:0"
+BEDROCK_MODEL_ID = "us.anthropic.claude-3-haiku-20240307-v1:0"
 
 
 @dataclass
@@ -47,4 +47,4 @@ def query_rag(query_text: str) -> QueryResponse:
 
 
 if __name__ == "__main__":
-    query_rag("How much does a landing page cost to develop?")
+    query_rag("What grade did Lauri Soome achieve in Deep Learning and when did he take the class?")
